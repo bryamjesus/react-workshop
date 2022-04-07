@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -8,13 +9,6 @@
   /* max-width: 1200px;
   width: 95%; */
   margin: auto;
-}
-
-ul {
-  list-style: none;
-}
-li {
-  /* color: white; */
 }
 
 .header {
@@ -47,4 +41,11 @@ li {
   .nav__img {
     width: 30%;
   }
+}
+
+.releases {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
 }

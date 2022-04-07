@@ -7,8 +7,8 @@
 .launching {
   padding: 10px 10px;
   background-color: #eef1f6;
-  margin: 7px 0;
-  border-radius: 5px;
+  /* margin: 15px 0; */
+  border-radius: 10px;
 }
 
 .launching__body {
